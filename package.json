@@ -9,14 +9,19 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~53.0.12",
-    "expo-status-bar": "~2.2.3",
-    "react": "19.0.0",
-    "react-native": "0.79.4"
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "^8.18.0",
+    "expo": "~51.0.39",
+    "expo-gl": "~14.0.2",
+    "expo-three": "^8.0.0",
+    "react": "18.2.0",
+    "react-native": "^0.74.5",
+    "three": "^0.166.1",
+    "expo-status-bar": "~1.12.1"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
-    "@types/react": "~19.0.10",
+    "@types/react": "18.2.66",
     "typescript": "~5.8.3"
   },
   "private": true
