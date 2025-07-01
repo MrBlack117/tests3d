@@ -1,0 +1,25 @@
+{
+  "name": "expo52",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^8.16.0",
+    "expo": "^52.0.47",
+    "expo-status-bar": "~2.0.1",
+    "react": "18.3.1",
+    "react-native": "0.76.9",
+    "expo-gl": "~15.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~18.3.1",
+    "typescript": "~5.8.3"
+  },
+  "private": true
+}
