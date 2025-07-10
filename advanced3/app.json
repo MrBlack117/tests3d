@@ -12,38 +12,18 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "assets/**"
-    ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.mrblack11.astroplanet",
-      "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
-      },
-      "runtimeVersion": {
-        "policy": "appVersion"
-      }
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.mrblack11.astroplanet",
-      "runtimeVersion": "1.0.0"
+      "edgeToEdgeEnabled": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "6b37b784-833c-4d57-ab3f-ef7841723b1b"
-      }
-    },
-    "owner": "mrblack11",
-    "updates": {
-      "url": "https://u.expo.dev/6b37b784-833c-4d57-ab3f-ef7841723b1b"
     }
   }
 }
